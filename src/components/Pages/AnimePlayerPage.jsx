@@ -17,7 +17,7 @@ import { RWebShare } from "react-web-share";
 import { v4 as uuidv4 } from "uuid";
 import { GlobalContext } from "../../App";
 import {CarouselRenderer,VerticalCarousel} from "../Layouts/index";
-import AnimePlayer from "../Players/index";
+import {AnimePlayer} from "../Players/index";
 import {AnimeSection,Navbar} from "../Sections/index";
 import "./AnimePlayerPage.css";
 import { auth, db } from '../../firebaseConfig';

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { Col, Container, Row, setConfiguration } from "react-grid-system";
 import { v4 as uuidv4 } from "uuid";
-import {CarouselCard} from "../Cards/index";
+import CarouselCard from "../Cards/AnimeCard";
 setConfiguration({ breakpoints: [600, 924, 1434, 1785, 2000, 2400] });
 const GridRenderer = ({ finalQuery, setAnimeInfo, isAnimate }) => {
   useEffect(() => {
