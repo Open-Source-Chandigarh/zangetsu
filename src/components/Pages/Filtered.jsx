@@ -2,10 +2,9 @@
 
 import { setConfiguration } from "react-grid-system";
 import { useLocation } from "react-router-dom";
-import InfiniteSection from "../Sections/InfiniteSection";
+import {InfiniteSection, Navbar} from "../Sections/index";
 import "./Genres.css";
 import { useState } from "react";
-import Navbar from "../Sections/Navbar";
 setConfiguration({ breakpoints: [768, 1170, 1500, 1700, 1800, 1900] });
 const GenresPage = () => {
   const location = useLocation();

@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import CarouselRenderer from "../Layouts/CarouselRenderer";
-import TrailerPlayer from "../Players/TrailerPlayer";
+import {CarouselRenderer} from "../Layouts/index";
+import {TrailerPlayer} from "../Players/index";
 
 const UpcomingSection = () => {
   const [trailerId, setTrailerId] = useState("");
