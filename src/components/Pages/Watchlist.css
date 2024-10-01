@@ -1,0 +1,121 @@
+table {
+    border-spacing: 0.6rem;
+    font-family: "Poppins";
+    margin: 0;
+}
+
+table tr td {
+    height: 14rem;
+}
+
+table tr > * {
+    /* border: 1px solid rgba(0, 0, 0, 0.5); */
+    text-align: center;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 0.25rem;
+}
+
+table tr th {
+    font-weight: 500;
+    font-size: large;
+    padding: 2rem 4rem;
+    color: yellow;
+}
+
+.checkbox {
+    transform: scale(2.5); /* Increases the size of the checkbox */
+    transform-origin: center; /* Keeps the checkbox centered */
+    -webkit-appearance: none; /* Removes default checkbox style */
+    /* appearance: none; */
+    width: 30px; /* Custom width */
+    height: 30px; /* Custom height */
+    background-color: white; /* Background color */
+    border-radius: 0.25rem; /* Rounded corners */
+    cursor: pointer;
+    display: inline-block; /* Prevents layout shift */
+    margin: 0; /* Prevents any unwanted margin that could cause shifting */
+  }
+  
+  .checkbox:checked {
+    background-color: #8930c6; /* Changes color when checked */
+    border-color: #8930c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 6rem;
+  }
+  
+  .checkbox:checked::before {
+    content: "✓"; /* Adds checkmark inside the checkbox */
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .table-column-1 {
+    width: 5%;
+
+  }
+
+  .table-column-3 {
+    width: 30%;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 2.4rem;
+  }
+
+  .table-column-4 {
+    width: 25%;
+  }
+  .table-column-5 {
+    width: 15%;
+  }
+  .table-column-6 {
+    width: 15%;
+    padding: 1rem 2rem;
+  }
+  
+
+.watchlist-a {
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+    border: none;
+    color: white;
+    background-color: #8930c6;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin: auto 2rem;
+    font-size: medium;
+}
+
+.watchlist-a button {
+    color: white;
+    border: none;
+    background-color: #8930c6;
+}
+
+@media (max-width:900px){
+
+    .table-column-4, .table-column-5, .col4, .col5 {
+        display: none;
+    }
+}
+
+@media (max-width: 575px){
+    .title {
+        font-weight: 400;
+        font-size: 1.4rem;
+      }
+    
+    table tr td {
+        height: 6rem;
+    }
+
+    .checkbox {
+        transform: scale(1.5); 
+    }
+
+}

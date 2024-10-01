@@ -1,0 +1,131 @@
+.herocard-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  margin-top: 20px;
+  align-items: flex-start;
+  padding: 10rem 10rem;
+  text-align: left;
+  max-width: 98.7%;
+  border-radius: 0.25rem;
+  font-weight: 100;
+  flex-wrap: wrap;
+}
+
+.herocard-wrapper img {
+  height: 100%;
+  width: 100%;
+}
+
+.herocard-animeinfo-wrapper {
+  display: flex;
+  flex-direction:column;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.herocard-animeinfo {
+  color: white;
+  display: flex;
+  gap: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.herocard-animeinfo-title {
+  color: rgb(4, 250, 4);
+  font-size: 5.7rem;
+  max-width: 70rem;
+  display: flex;
+  text-shadow: -2px -2px 1px rgba(240,240,0,1);
+}
+.herocard-animeinfo-description {
+  text-align: justify;
+  color: white;
+  font-family: sans-serif;
+  line-height: 1.5;
+  width: 50%;
+}
+
+.herocard-btn-watch {
+  background-color: #4515ad;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 1px;
+  font-family: inherit;
+  border-radius: 0.25rem;
+  font-size: 2rem;
+  /* font-weight: bold; */
+  width: 18rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.btn-watchnow:hover {
+  opacity: 0.8;
+  transition: 500ms ease;
+}
+
+
+@media screen and (max-width: 768px) {
+  .herocard-wrapper {
+    height: 80vh;
+  }
+  .herocard-animeinfo-item {
+    font-size: 1.4rem;
+  }
+  .herocard-animeinfo-title {
+    font-size: 2.5rem;
+  }
+  .herocard-animeinfo-description {
+    font-size: 1.5rem;
+  }
+  .herocard-animeinfo-description {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  .herocard-btn-watch {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px){
+
+  .herocard-animeinfo-wrapper {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 441px) {
+
+  .herocard-animeinfo-wrapper > * {
+    flex-wrap: wrap;
+  }
+
+  .herocard-animeinfo-wrapper {
+    width: 36rem;
+    margin: auto 2rem;
+    padding: 0;
+  }
+}
+
+@media (max-width: 396px){
+
+  .herocard-animeinfo-wrapper {
+    width: 32rem;
+  }
+}
+
+@media (max-width: 360px){
+
+  .herocard-animeinfo-wrapper {
+    width: 28rem;
+  }
+}
