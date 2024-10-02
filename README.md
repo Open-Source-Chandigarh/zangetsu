@@ -1,23 +1,30 @@
-﻿#Zangetsu
+﻿
+## Setup
 
+1. **Create dbconfig folder** :  Inside the src directory, create a folder named dbconfig.
 
-to use create a folder named dbconfig under src , create a file named firebase js
-with contents as
+2. **Create firebase.js file** :  Inside the dbconfig folder, create a file named firebase.js with the following content:
 
-
+```
 const firebase = {
-    apiKey: "",
-    authDomain: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
-  };
-
+  apiKey: "",           // Add your Firebase API key here
+  authDomain: "",        // Add your Firebase auth domain here
+  projectId: "",         // Add your Firebase project ID here
+  storageBucket: "",     // Add your Firebase storage bucket here
+  messagingSenderId: "", // Add your Firebase messaging sender ID here
+  appId: ""              // Add your Firebase app ID here
+};
 
 export default firebase;
+```
 
-also enable firebase database and authentication
+3. **Enable Firebase services**
+    - Go to the Firebase Console.
+    - Enable Authentication under Build > Authentication.
+    - Enable Firestore Database or Realtime Database under Build > Firestore Database or     - Realtime Database.
+    
+This concludes the Firebase configuration.
+
 
 ## Contributing
 
