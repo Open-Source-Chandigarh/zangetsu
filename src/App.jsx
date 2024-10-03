@@ -3,17 +3,9 @@ import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import ClockLoader from "./components/Others/ClockLoader";
-import AnimePlayerPage from "./components/Pages/AnimePlayerPage";
-import FilteredPage from "./components/Pages/Filtered";
-import GenresPage from "./components/Pages/Genres";
-import Home from "./components/Pages/Home";
-import LoginPage from "./components/Pages/Login";
-import MoviesPage from "./components/Pages/Movies";
-import RecentPage from "./components/Pages/Recent";
-import SearchResults from "./components/Pages/SearchResults";
-import SignupPage from "./components/Pages/Signup";
-import Watchlist from "./components/Pages/Watchlist";
-import MoreSection from "./components/Sections/MoreSection";
+import {MoreSection} from "./components/Sections/index"
+import {AnimePlayerPage, FilteredPage, GenresPage, Home,LoginPage,MoviesPage,RecentPage,SearchResults,SignupPage,Watchlist} from "./components/Pages/index"
+
 
 // state for showing and hiding spinner
 export const GlobalContext = React.createContext();

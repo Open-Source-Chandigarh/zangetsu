@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { auth, googleProvider, signInWithPopup } from '../../firebaseConfig';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
-import Navbar from "../Sections/Navbar";
+import {Navbar} from "../Sections/index";
 import { Toaster } from "react-hot-toast";
 
 

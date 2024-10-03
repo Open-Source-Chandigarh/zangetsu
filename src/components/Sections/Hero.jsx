@@ -4,7 +4,7 @@ import axios from "axios";
 import { useEffect, useRef, useState } from "react";
 import Carousel from "react-elastic-carousel";
 import { v4 as uuidv4 } from "uuid";
-import HeroCard from "../Cards/HeroCard";
+import {HeroCard} from "../Cards/index";
 import Navbar from "./Navbar";
 
 const Hero = ({ setHeroSectionLoaded }) => {

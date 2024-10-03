@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 // import ScrollToTop from "react-scroll-to-top";
-import AnimeSection from "../Sections/AnimeSection";
-import Hero from "../Sections/Hero";
-import InfiniteSection from "../Sections/InfiniteSection";
-import UpcomingSection from "../Sections/UpcomingSection";
-
+import {AnimeSection,Hero,InfiniteSection,UpcomingSection} from "../Sections/index";
 import "./Home.css";
 const Home = () => {
   const baseURL = process.env.REACT_APP_ANILIST_API_URL;

@@ -2,8 +2,8 @@ import { RightOutlined } from "@ant-design/icons";
 import Carousel from "react-elastic-carousel";
 import { useNavigate } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
-import AnimeCard from "../Cards/AnimeCard";
-import UpcomingCard from "../Cards/UpcomingCard";
+import {AnimeCard, UpcomingCard} from "../Cards/index";
+
 
 const CarouselRenderer = ({
   finalQuery,

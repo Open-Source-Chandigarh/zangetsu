@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 
 import { useContext, useEffect, useState } from "react";
-import GridRenderer from "../Layouts/GridRenderer.jsx";
+import {GridRenderer} from "../Layouts/index.js";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { v4 as uuidv4 } from "uuid";

@@ -1,7 +1,7 @@
-import GridRenderer from "../Layouts/GridRenderer";
+import {GridRenderer} from "../Layouts/index";
 import { setConfiguration } from "react-grid-system";
 import { useLocation } from "react-router-dom";
-import Navbar from "../Sections/Navbar";
+import {Navbar} from "../Sections/index";
 setConfiguration({ breakpoints: [580, 924, 1434, 1767, 2000, 2400] });
 const SearchResults = () => {
   const location = useLocation();
