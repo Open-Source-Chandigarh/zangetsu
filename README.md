@@ -33,6 +33,8 @@ export default firebaseConfig;
 
 - Note: To find these credentials, go to the Firebase Console, select your project, and navigate to Project Settings.
 
+bla bla bla 
+
 ### 3. Enable Firebase Services
 1. **Enable Firebase Authentication**
     - Go to the Firebase Console and select your project.
