@@ -69,41 +69,44 @@ We appreciate your interest in contributing to **zangetsu**. Here's how you can 
 
 
 2. **Clone Your Fork:** Clone your fork to your local machine with `git clone`.
-
+```
     git clone https://github.com/<your_github_username>/zangetsu.git
-
-3. **Change the working directory:**  cd zangetsu
+```
+3. **Change the working directory:**
+```
+cd zangetsu
+```
 
 4. **Add an upstream link to the main branch in your cloned repo:**
-
+```
     git remote add upstream https://github.com/<your_github_username>/zangetsu.git
-
+```
 5. **Keep your cloned repo up to date by pulling from upstream (this will also avoid any merge conflicts while committing new changes):**
-
+```
     git pull upstream main
-
+```
 6. **Create a New Branch:** Make a new branch for your work with a descriptive name.
-
+```
     git checkout -b <branch-name>
-
+```
 7. **Make Changes:** Implement your desired feature or fix a bug.
 
 8. **Track and stage your changes:**
-
+```
     git status
-
+```
 9. **Add all the required changes:**
-
+```
     git add .
-
+```
 10. **Commit all the changes (Write commit message as "Small Message"):**
-
+```
     git commit -m "<your-commit-message>"
-
+```
 11. **Push the changes for review:**
-
+```
     git push origin <branch-name>
-
+```
 12. **Open a Pull Request:** Create a pull request from your fork to this repository. Provide a concise title and description.
 
 We'll review your contribution and collaborate to merge it into the project. Please adhere to our code of conduct and guidelines.
